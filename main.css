@@ -1,0 +1,20 @@
+* {font-family: Arial, Helvetica, sans-serif;}
+
+h1, h3 {
+    font-style: italic;
+    color: #ffffff; 
+    background-color: #029fa1;
+}
+
+p:hover {color: #7fffd4;}
+li:hover {
+    font-style: italic;
+    color: #7fffd4;
+}
+
+a {
+    font-style: italic;
+    color: black;
+    background: #7fffd4;
+}
+a:hover {color: #029fa1;}
