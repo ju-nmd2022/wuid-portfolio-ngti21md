@@ -2,9 +2,14 @@
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
     grid-template-rows: 4fr 4fr 4fr 4fr 4fr;
+    grid-template-areas: 
+    "header"
+    "pictures";
     gap: 2rem;
-    background-color: antiquewhite;
-    }
+    background-color: aliceblue;
+    justify-content: center;
+    height: 16rem;
+}
 
 header, p {
     font-size: larger;
@@ -13,10 +18,9 @@ header, p {
 }
 
 header {text-align: center;}
-p {text-align: justify;}
+p {text-align: left;}
 
 img {
-    position: center;
     width: 200px;
     height: 200px;
 }
