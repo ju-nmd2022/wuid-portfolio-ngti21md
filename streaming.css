@@ -1,7 +1,6 @@
 .pictures {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
-    grid-template-rows: 4fr 4fr 4fr 4fr 4fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 2rem;
     }
 
@@ -16,7 +15,11 @@ header {
 img {width: 200px;
     height: 400px;
 }
-
+a {color: #00b4b4;}
+a:hover {
+    background-color: aliceblue;
+    font-size: large;
+ }
 
 .MS1 {background-color: lightcyan;}
 
