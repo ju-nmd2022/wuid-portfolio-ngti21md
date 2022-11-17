@@ -31,3 +31,38 @@ a:hover {
 
 .MS5 {background-color: lavenderblush;}
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .pictures {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 2rem;
+        }
+    
+    header {
+        font-size: larger;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        color: #00b4b4;
+    
+    }
+    
+    img {width: 200px;
+        height: 400px;
+    }
+    a {color: #00b4b4;}
+    a:hover {
+        background-color: aliceblue;
+        font-size: large;
+     }
+    
+    .MS1 {background-color: lightcyan;}
+    
+    .MS2 {background-color: floralwhite;}
+    
+    .MS3 {background-color: blanchedalmond;}
+    
+    .MS4 {background-color: azure;}
+    
+    .MS5 {background-color: lavenderblush;}   
+}
