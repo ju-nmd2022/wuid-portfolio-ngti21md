@@ -1,7 +1,7 @@
 .pictures {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    grid-template-rows: 4fr 4fr 4fr 4fr 4fr;
+    grid-template-rows: 4fr 4fr 4fr ;
     grid-template-areas: 
     "header"
     "pictures";
