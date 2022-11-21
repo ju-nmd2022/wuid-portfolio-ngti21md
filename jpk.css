@@ -1,9 +1,14 @@
-* {font-family: Arial, Helvetica, sans-serif;
-}
-
+* {font-family: Arial, Helvetica, sans-serif;}
+header {text-align: center;}
 ul, h1 { text-align: center;
 }
 p { font-size: 18px;} 
 img { width: 400px;
       height: 300px
 }
+a { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: italic;
+      color: black;
+      background: #7fffd4;
+  }
+  a:hover {color: #029fa1;}
